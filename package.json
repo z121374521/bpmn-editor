@@ -1,0 +1,39 @@
+{
+  "name": "@99cloud/bpmn-editor",
+  "version": "0.0.3",
+  "private": false,
+  "scripts": {
+    "test": "vue-cli-service serve",
+    "lint": "eslint --fix --ext .js,.vue src tests"
+  },
+  "peerDependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "bpmn-js": "^8.2.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "compression-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.2",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^5.2.3",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "bpmn-js": "^8.2.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
